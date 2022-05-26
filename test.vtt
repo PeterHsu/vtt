@@ -1,5 +1,16 @@
 WEBVTT
 
+STYLE
+::cue {   /* 全部使用的樣式 */
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: papayawhip;
+}
+
+STYLE
+::cue(b) {   /* 指定 <b></b> 內使用的樣式 */
+  color: peachpuff;
+}
+
 1
 00:00:00.000 --> 00:00:01.892
 我們xxx從最後更新日期為
